@@ -1,4 +1,4 @@
-module github.com/scaccomatto/proto/order
+module github.com/scaccomatto/golang/order
 
 go 1.20
 

@@ -1,5 +1,5 @@
 syntax = "proto3";
-option go_package="github.com/scaccomatto/proto/order";
+option go_package="github.com/scaccomatto/golang/order";
 
 message CreateOrderRequest {
     int32 user_id = 1;
