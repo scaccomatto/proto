@@ -18,6 +18,6 @@ message CreateOrderResponse {
 }
 
 service Order {
-    rpc Create(CreateOrderRequest)
-    returns (CreateOrderResponse){}
+    rpc Create(CreateOrderRequest) returns (CreateOrderResponse){}
+    rpc Update(CreateOrderRequest) returns (CreateOrderResponse){}
 }
